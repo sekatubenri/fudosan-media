@@ -6,7 +6,7 @@ const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 const SITE = {
   name: '不動産投資ナビ',
-  url: 'https://fudosan-select.com',
+  url: 'https://fudosan-select.jp',
 };
 
 const AFFILIATE_TOP = `

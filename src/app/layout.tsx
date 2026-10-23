@@ -3,7 +3,7 @@ import Script from 'next/script'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://fudosan-select.com'),
+  metadataBase: new URL('https://fudosan-select.jp'),
   title: {
     default: '不動産投資ナビ｜マンション・REIT・土地投資の完全ガイド',
     template: '%s｜不動産投資ナビ',

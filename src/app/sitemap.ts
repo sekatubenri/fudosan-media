@@ -1,7 +1,7 @@
 import { getAllArticles } from '@/lib/articles'
 import type { MetadataRoute } from 'next'
 
-const BASE_URL = 'https://fudosan-select.com'
+const BASE_URL = 'https://fudosan-select.jp'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllArticles()

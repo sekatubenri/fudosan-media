@@ -1,6 +1,6 @@
 import { getAllArticles } from '@/lib/articles'
 
-const BASE_URL = 'https://fudosan-select.com'
+const BASE_URL = 'https://fudosan-select.jp'
 
 export async function GET() {
   const articles = getAllArticles().slice(0, 20)
